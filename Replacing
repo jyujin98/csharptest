@@ -1,0 +1,13 @@
+using System;
+					
+public class Replacing
+{
+	public static void Main()
+	{
+		string sayHello = "Hello World!";
+		Console.WriteLine(sayHello);
+		sayHello = sayHello.Replace("Hello", "Ohayo");
+		sayHello = sayHello.Replace("World", "Yuki-chan~");
+		Console.WriteLine(sayHello);
+	}
+}
