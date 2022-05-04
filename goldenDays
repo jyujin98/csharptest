@@ -1,0 +1,18 @@
+using System;
+					
+public class goldenDays
+{
+	public static void Main()
+	{
+		string songLyrics = "For the golden days will return again";
+
+		Console.WriteLine(songLyrics.Contains("golden"));
+		Console.WriteLine(songLyrics.Contains("stars"));
+
+		Console.WriteLine(songLyrics.StartsWith("For"));
+		Console.WriteLine(songLyrics.StartsWith("goodbye"));
+
+		Console.WriteLine(songLyrics.EndsWith("again"));
+		Console.WriteLine(songLyrics.EndsWith("goodbye"));
+	}
+}
